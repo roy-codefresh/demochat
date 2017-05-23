@@ -4,7 +4,7 @@
 version: '2'
 services:
   demochat:
-    build: .
+    image: roy-codefresh/demochat
     ports:
       - 5000
   mongo:
