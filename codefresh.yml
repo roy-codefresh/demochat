@@ -11,4 +11,4 @@ steps:
       type: launch-composition
       composition: docker-compose.yml
       environment_name: 'cf'
-      entry_point: demochat
+      entry_point: demochat:master
