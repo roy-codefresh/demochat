@@ -6,6 +6,6 @@ services:
   demochat:
     image: roy-codefresh/demochat:master
     ports:
-      - 5000
+      - 5001
   mongo:
     image: mongo
